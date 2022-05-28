@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="3" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="3" name="IechnicalTest(failed)">
+    <groups>
+      <run>
+        <include name="Test1"/>
+        <include name="Test2"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.qa.sco.testCases.LoginPageTest">
+        <methods>
+          <include name="verifyUsernamWithoutSpecCharWithPassword"/>
+          <include name="verifyWithoutPasswordWithUsername"/>
+          <include name="verifyPasswordInputPresent"/>
+          <include name="verifyUsernamWithSpecCharWithPassword"/>
+          <include name="verifyLoginButtonPresent"/>
+          <include name="verifyWithoutUsernameWithPassword"/>
+          <include name="veriftyUsernameInputPresent"/>
+          <include name="verifySecondListItem"/>
+          <include name="verifyBudgeValueOfSecondListItem"/>
+          <include name="verifytotalListgroup"/>
+          <include name="verifytWithoutUserNameANDPassword"/>
+        </methods>
+      </class> <!-- com.qa.sco.testCases.LoginPageTest -->
+    </classes>
+  </test> <!-- IechnicalTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

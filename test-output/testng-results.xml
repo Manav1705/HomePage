@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="18" passed="18" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-05-21T19:39:34 EDT" name="Default suite" finished-at="2022-05-21T19:41:23 EDT" duration-ms="108258">
+    <groups>
+      <group name="Test1">
+        <method signature="LoginPageTest.veriftyUsernameInputPresent()[pri:0, instance:com.qa.sco.testCases.LoginPageTest@932bc4a]" name="veriftyUsernameInputPresent" class="com.qa.sco.testCases.LoginPageTest"/>
+        <method signature="LoginPageTest.verifyLoginButtonPresent()[pri:0, instance:com.qa.sco.testCases.LoginPageTest@932bc4a]" name="verifyLoginButtonPresent" class="com.qa.sco.testCases.LoginPageTest"/>
+        <method signature="LoginPageTest.verifyPasswordInputPresent()[pri:0, instance:com.qa.sco.testCases.LoginPageTest@932bc4a]" name="verifyPasswordInputPresent" class="com.qa.sco.testCases.LoginPageTest"/>
+        <method signature="LoginPageTest.verifyUsernamWithSpecCharWithPassword()[pri:0, instance:com.qa.sco.testCases.LoginPageTest@932bc4a]" name="verifyUsernamWithSpecCharWithPassword" class="com.qa.sco.testCases.LoginPageTest"/>
+        <method signature="LoginPageTest.verifyUsernamWithoutSpecCharWithPassword()[pri:0, instance:com.qa.sco.testCases.LoginPageTest@932bc4a]" name="verifyUsernamWithoutSpecCharWithPassword" class="com.qa.sco.testCases.LoginPageTest"/>
+        <method signature="LoginPageTest.verifyWithoutPasswordWithUsername()[pri:0, instance:com.qa.sco.testCases.LoginPageTest@932bc4a]" name="verifyWithoutPasswordWithUsername" class="com.qa.sco.testCases.LoginPageTest"/>
+        <method signature="LoginPageTest.verifyWithoutUsernameWithPassword()[pri:0, instance:com.qa.sco.testCases.LoginPageTest@932bc4a]" name="verifyWithoutUsernameWithPassword" class="com.qa.sco.testCases.LoginPageTest"/>
+        <method signature="LoginPageTest.verifytWithoutUserNameANDPassword()[pri:0, instance:com.qa.sco.testCases.LoginPageTest@932bc4a]" name="verifytWithoutUserNameANDPassword" class="com.qa.sco.testCases.LoginPageTest"/>
+      </group> <!-- Test1 -->
+      <group name="Test6">
+        <method signature="LoginPageTest.cellValue()[pri:0, instance:com.qa.sco.testCases.LoginPageTest@932bc4a]" name="cellValue" class="com.qa.sco.testCases.LoginPageTest"/>
+      </group> <!-- Test6 -->
+      <group name="Test5">
+        <method signature="LoginPageTest.Test5button()[pri:0, instance:com.qa.sco.testCases.LoginPageTest@932bc4a]" name="Test5button" class="com.qa.sco.testCases.LoginPageTest"/>
+        <method signature="LoginPageTest.Test5buttonDisable()[pri:0, instance:com.qa.sco.testCases.LoginPageTest@932bc4a]" name="Test5buttonDisable" class="com.qa.sco.testCases.LoginPageTest"/>
+      </group> <!-- Test5 -->
+      <group name="Test4">
+        <method signature="LoginPageTest.verifyFirstEnableButton()[pri:0, instance:com.qa.sco.testCases.LoginPageTest@932bc4a]" name="verifyFirstEnableButton" class="com.qa.sco.testCases.LoginPageTest"/>
+        <method signature="LoginPageTest.verifySecondDisableButton()[pri:0, instance:com.qa.sco.testCases.LoginPageTest@932bc4a]" name="verifySecondDisableButton" class="com.qa.sco.testCases.LoginPageTest"/>
+      </group> <!-- Test4 -->
+      <group name="Test3">
+        <method signature="LoginPageTest.verifyAfterSelection()[pri:0, instance:com.qa.sco.testCases.LoginPageTest@932bc4a]" name="verifyAfterSelection" class="com.qa.sco.testCases.LoginPageTest"/>
+        <method signature="LoginPageTest.verifyDefaultOption()[pri:0, instance:com.qa.sco.testCases.LoginPageTest@932bc4a]" name="verifyDefaultOption" class="com.qa.sco.testCases.LoginPageTest"/>
+      </group> <!-- Test3 -->
+      <group name="Test2">
+        <method signature="LoginPageTest.verifyBudgeValueOfSecondListItem()[pri:0, instance:com.qa.sco.testCases.LoginPageTest@932bc4a]" name="verifyBudgeValueOfSecondListItem" class="com.qa.sco.testCases.LoginPageTest"/>
+        <method signature="LoginPageTest.verifySecondListItem()[pri:0, instance:com.qa.sco.testCases.LoginPageTest@932bc4a]" name="verifySecondListItem" class="com.qa.sco.testCases.LoginPageTest"/>
+        <method signature="LoginPageTest.verifytotalListgroup()[pri:0, instance:com.qa.sco.testCases.LoginPageTest@932bc4a]" name="verifytotalListgroup" class="com.qa.sco.testCases.LoginPageTest"/>
+      </group> <!-- Test2 -->
+    </groups>
+    <test started-at="2022-05-21T19:39:34 EDT" name="Default test" finished-at="2022-05-21T19:41:23 EDT" duration-ms="108258">
+      <class name="com.qa.sco.testCases.LoginPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.sco.testCases.LoginPageTest@932bc4a]" started-at="2022-05-21T19:39:34 EDT" name="setUp" finished-at="2022-05-21T19:39:38 EDT" duration-ms="4106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Test5button()[pri:0, instance:com.qa.sco.testCases.LoginPageTest@932bc4a]" started-at="2022-05-21T19:39:38 EDT" name="Test5button" finished-at="2022-05-21T19:39:48 EDT" duration-ms="9692" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test5button -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.sco.testCases.LoginPageTest@932bc4a]" started-at="2022-05-21T19:39:48 EDT" name="tearDown" finished-at="2022-05-21T19:39:49 EDT" duration-ms="799" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.sco.testCases.LoginPageTest@932bc4a]" started-at="2022-05-21T19:39:49 EDT" name="setUp" finished-at="2022-05-21T19:39:52 EDT" duration-ms="3589" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Test5buttonDisable()[pri:0, instance:com.qa.sco.testCases.LoginPageTest@932bc4a]" started-at="2022-05-21T19:39:52 EDT" name="Test5buttonDisable" finished-at="2022-05-21T19:40:03 EDT" duration-ms="10612" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test5buttonDisable -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.sco.testCases.LoginPageTest@932bc4a]" started-at="2022-05-21T19:40:03 EDT" name="tearDown" finished-at="2022-05-21T19:40:04 EDT" duration-ms="800" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.sco.testCases.LoginPageTest@932bc4a]" started-at="2022-05-21T19:40:04 EDT" name="setUp" finished-at="2022-05-21T19:40:07 EDT" duration-ms="3599" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="cellValue()[pri:0, instance:com.qa.sco.testCases.LoginPageTest@932bc4a]" started-at="2022-05-21T19:40:07 EDT" name="cellValue" finished-at="2022-05-21T19:40:08 EDT" duration-ms="127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cellValue -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.sco.testCases.LoginPageTest@932bc4a]" started-at="2022-05-21T19:40:08 EDT" name="tearDown" finished-at="2022-05-21T19:40:08 EDT" duration-ms="736" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.sco.testCases.LoginPageTest@932bc4a]" started-at="2022-05-21T19:40:08 EDT" name="setUp" finished-at="2022-05-21T19:40:11 EDT" duration-ms="3006" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="veriftyUsernameInputPresent()[pri:0, instance:com.qa.sco.testCases.LoginPageTest@932bc4a]" started-at="2022-05-21T19:40:11 EDT" name="veriftyUsernameInputPresent" finished-at="2022-05-21T19:40:11 EDT" duration-ms="29" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- veriftyUsernameInputPresent -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.sco.testCases.LoginPageTest@932bc4a]" started-at="2022-05-21T19:40:11 EDT" name="tearDown" finished-at="2022-05-21T19:40:12 EDT" duration-ms="727" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.sco.testCases.LoginPageTest@932bc4a]" started-at="2022-05-21T19:40:12 EDT" name="setUp" finished-at="2022-05-21T19:40:16 EDT" duration-ms="3529" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyAfterSelection()[pri:0, instance:com.qa.sco.testCases.LoginPageTest@932bc4a]" started-at="2022-05-21T19:40:16 EDT" name="verifyAfterSelection" finished-at="2022-05-21T19:40:16 EDT" duration-ms="483" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAfterSelection -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.sco.testCases.LoginPageTest@932bc4a]" started-at="2022-05-21T19:40:16 EDT" name="tearDown" finished-at="2022-05-21T19:40:17 EDT" duration-ms="713" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.sco.testCases.LoginPageTest@932bc4a]" started-at="2022-05-21T19:40:17 EDT" name="setUp" finished-at="2022-05-21T19:40:20 EDT" duration-ms="2969" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyBudgeValueOfSecondListItem()[pri:0, instance:com.qa.sco.testCases.LoginPageTest@932bc4a]" started-at="2022-05-21T19:40:20 EDT" name="verifyBudgeValueOfSecondListItem" finished-at="2022-05-21T19:40:20 EDT" duration-ms="21" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBudgeValueOfSecondListItem -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.sco.testCases.LoginPageTest@932bc4a]" started-at="2022-05-21T19:40:20 EDT" name="tearDown" finished-at="2022-05-21T19:40:21 EDT" duration-ms="709" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.sco.testCases.LoginPageTest@932bc4a]" started-at="2022-05-21T19:40:21 EDT" name="setUp" finished-at="2022-05-21T19:40:24 EDT" duration-ms="3640" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyDefaultOption()[pri:0, instance:com.qa.sco.testCases.LoginPageTest@932bc4a]" started-at="2022-05-21T19:40:24 EDT" name="verifyDefaultOption" finished-at="2022-05-21T19:40:24 EDT" duration-ms="28" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDefaultOption -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.sco.testCases.LoginPageTest@932bc4a]" started-at="2022-05-21T19:40:24 EDT" name="tearDown" finished-at="2022-05-21T19:40:25 EDT" duration-ms="764" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.sco.testCases.LoginPageTest@932bc4a]" started-at="2022-05-21T19:40:25 EDT" name="setUp" finished-at="2022-05-21T19:40:28 EDT" duration-ms="3505" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyFirstEnableButton()[pri:0, instance:com.qa.sco.testCases.LoginPageTest@932bc4a]" started-at="2022-05-21T19:40:28 EDT" name="verifyFirstEnableButton" finished-at="2022-05-21T19:40:28 EDT" duration-ms="22" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFirstEnableButton -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.sco.testCases.LoginPageTest@932bc4a]" started-at="2022-05-21T19:40:28 EDT" name="tearDown" finished-at="2022-05-21T19:40:29 EDT" duration-ms="732" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.sco.testCases.LoginPageTest@932bc4a]" started-at="2022-05-21T19:40:29 EDT" name="setUp" finished-at="2022-05-21T19:40:33 EDT" duration-ms="3588" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLoginButtonPresent()[pri:0, instance:com.qa.sco.testCases.LoginPageTest@932bc4a]" started-at="2022-05-21T19:40:33 EDT" name="verifyLoginButtonPresent" finished-at="2022-05-21T19:40:33 EDT" duration-ms="34" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginButtonPresent -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.sco.testCases.LoginPageTest@932bc4a]" started-at="2022-05-21T19:40:33 EDT" name="tearDown" finished-at="2022-05-21T19:40:34 EDT" duration-ms="743" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.sco.testCases.LoginPageTest@932bc4a]" started-at="2022-05-21T19:40:34 EDT" name="setUp" finished-at="2022-05-21T19:40:37 EDT" duration-ms="3575" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyPasswordInputPresent()[pri:0, instance:com.qa.sco.testCases.LoginPageTest@932bc4a]" started-at="2022-05-21T19:40:37 EDT" name="verifyPasswordInputPresent" finished-at="2022-05-21T19:40:37 EDT" duration-ms="29" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPasswordInputPresent -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.sco.testCases.LoginPageTest@932bc4a]" started-at="2022-05-21T19:40:37 EDT" name="tearDown" finished-at="2022-05-21T19:40:38 EDT" duration-ms="852" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.sco.testCases.LoginPageTest@932bc4a]" started-at="2022-05-21T19:40:38 EDT" name="setUp" finished-at="2022-05-21T19:40:42 EDT" duration-ms="3598" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifySecondDisableButton()[pri:0, instance:com.qa.sco.testCases.LoginPageTest@932bc4a]" started-at="2022-05-21T19:40:42 EDT" name="verifySecondDisableButton" finished-at="2022-05-21T19:40:42 EDT" duration-ms="25" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySecondDisableButton -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.sco.testCases.LoginPageTest@932bc4a]" started-at="2022-05-21T19:40:42 EDT" name="tearDown" finished-at="2022-05-21T19:40:42 EDT" duration-ms="657" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.sco.testCases.LoginPageTest@932bc4a]" started-at="2022-05-21T19:40:42 EDT" name="setUp" finished-at="2022-05-21T19:40:46 EDT" duration-ms="3613" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifySecondListItem()[pri:0, instance:com.qa.sco.testCases.LoginPageTest@932bc4a]" started-at="2022-05-21T19:40:46 EDT" name="verifySecondListItem" finished-at="2022-05-21T19:40:46 EDT" duration-ms="60" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySecondListItem -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.sco.testCases.LoginPageTest@932bc4a]" started-at="2022-05-21T19:40:46 EDT" name="tearDown" finished-at="2022-05-21T19:40:47 EDT" duration-ms="920" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.sco.testCases.LoginPageTest@932bc4a]" started-at="2022-05-21T19:40:47 EDT" name="setUp" finished-at="2022-05-21T19:40:51 EDT" duration-ms="4104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyUsernamWithSpecCharWithPassword()[pri:0, instance:com.qa.sco.testCases.LoginPageTest@932bc4a]" started-at="2022-05-21T19:40:51 EDT" name="verifyUsernamWithSpecCharWithPassword" finished-at="2022-05-21T19:40:51 EDT" duration-ms="175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUsernamWithSpecCharWithPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.sco.testCases.LoginPageTest@932bc4a]" started-at="2022-05-21T19:40:51 EDT" name="tearDown" finished-at="2022-05-21T19:40:52 EDT" duration-ms="918" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.sco.testCases.LoginPageTest@932bc4a]" started-at="2022-05-21T19:40:52 EDT" name="setUp" finished-at="2022-05-21T19:40:57 EDT" duration-ms="4653" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyUsernamWithoutSpecCharWithPassword()[pri:0, instance:com.qa.sco.testCases.LoginPageTest@932bc4a]" started-at="2022-05-21T19:40:57 EDT" name="verifyUsernamWithoutSpecCharWithPassword" finished-at="2022-05-21T19:40:57 EDT" duration-ms="297" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUsernamWithoutSpecCharWithPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.sco.testCases.LoginPageTest@932bc4a]" started-at="2022-05-21T19:40:57 EDT" name="tearDown" finished-at="2022-05-21T19:40:58 EDT" duration-ms="874" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.sco.testCases.LoginPageTest@932bc4a]" started-at="2022-05-21T19:40:58 EDT" name="setUp" finished-at="2022-05-21T19:41:04 EDT" duration-ms="6092" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyWithoutPasswordWithUsername()[pri:0, instance:com.qa.sco.testCases.LoginPageTest@932bc4a]" started-at="2022-05-21T19:41:04 EDT" name="verifyWithoutPasswordWithUsername" finished-at="2022-05-21T19:41:04 EDT" duration-ms="354" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyWithoutPasswordWithUsername -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.sco.testCases.LoginPageTest@932bc4a]" started-at="2022-05-21T19:41:04 EDT" name="tearDown" finished-at="2022-05-21T19:41:06 EDT" duration-ms="1259" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.sco.testCases.LoginPageTest@932bc4a]" started-at="2022-05-21T19:41:06 EDT" name="setUp" finished-at="2022-05-21T19:41:11 EDT" duration-ms="4910" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyWithoutUsernameWithPassword()[pri:0, instance:com.qa.sco.testCases.LoginPageTest@932bc4a]" started-at="2022-05-21T19:41:11 EDT" name="verifyWithoutUsernameWithPassword" finished-at="2022-05-21T19:41:11 EDT" duration-ms="296" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyWithoutUsernameWithPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.sco.testCases.LoginPageTest@932bc4a]" started-at="2022-05-21T19:41:11 EDT" name="tearDown" finished-at="2022-05-21T19:41:12 EDT" duration-ms="739" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.sco.testCases.LoginPageTest@932bc4a]" started-at="2022-05-21T19:41:12 EDT" name="setUp" finished-at="2022-05-21T19:41:16 EDT" duration-ms="4341" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifytWithoutUserNameANDPassword()[pri:0, instance:com.qa.sco.testCases.LoginPageTest@932bc4a]" started-at="2022-05-21T19:41:16 EDT" name="verifytWithoutUserNameANDPassword" finished-at="2022-05-21T19:41:16 EDT" duration-ms="324" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifytWithoutUserNameANDPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.sco.testCases.LoginPageTest@932bc4a]" started-at="2022-05-21T19:41:16 EDT" name="tearDown" finished-at="2022-05-21T19:41:18 EDT" duration-ms="1280" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.sco.testCases.LoginPageTest@932bc4a]" started-at="2022-05-21T19:41:18 EDT" name="setUp" finished-at="2022-05-21T19:41:22 EDT" duration-ms="4062" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifytotalListgroup()[pri:0, instance:com.qa.sco.testCases.LoginPageTest@932bc4a]" started-at="2022-05-21T19:41:22 EDT" name="verifytotalListgroup" finished-at="2022-05-21T19:41:22 EDT" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifytotalListgroup -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.sco.testCases.LoginPageTest@932bc4a]" started-at="2022-05-21T19:41:22 EDT" name="tearDown" finished-at="2022-05-21T19:41:23 EDT" duration-ms="879" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.sco.testCases.LoginPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
